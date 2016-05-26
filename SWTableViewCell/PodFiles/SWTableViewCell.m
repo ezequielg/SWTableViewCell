@@ -175,7 +175,7 @@ static NSString * const kTableViewCellContentView = @"UITableViewCellContentView
                                // Constrain the maximum button width so that at least a button's worth of contentView is left visible. (The button view will shrink accordingly.)
                                [NSLayoutConstraint constraintWithItem:buttonView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationLessThanOrEqual toItem:self.contentView attribute:NSLayoutAttributeWidth multiplier:1.0 constant:-kUtilityButtonWidthDefault],
                                
-                               [NSLayoutConstraint constraintWithItem:buttonView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual  toItem:self.contentView attribute:NSLayoutAttributeBottom multiplier:1.0 constant: 150]
+                               [NSLayoutConstraint constraintWithItem:buttonView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual  toItem:self.contentView attribute:NSLayoutAttributeBottom multiplier:1.0 constant: 0]
 //                               [NSLayoutConstraint constraintWithItem:buttonView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeHeight multiplier:1.0 constant:-11]
                                ]];
     }
