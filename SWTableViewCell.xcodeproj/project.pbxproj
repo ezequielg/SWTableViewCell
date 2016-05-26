@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		523AF8131189D5910D9959B7 /* libPods-SWTableViewCellTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B6FCB0D9F5F5976482C755 /* libPods-SWTableViewCellTests.a */; };
-		76D732681AE2F50200909802 /* SWTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D732671AE2F50200909802 /* SWTableViewCellTests.m */; };
+		3141E8C179F1864761C8A60B /* Pods_SWTableViewCellTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F774A8577D8FC62A37D244B1 /* Pods_SWTableViewCellTests.framework */; };
+		6C3D693A6ACB5FC9A2237385 /* Pods_SWTableViewCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E1BFEA63096CC3FEDD03E3 /* Pods_SWTableViewCell.framework */; };
 		810308911846579B00C378F0 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 810308861846579B00C378F0 /* NSMutableArray+SWUtilityButtons.m */; };
 		810308921846579B00C378F0 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 810308881846579B00C378F0 /* SWCellScrollView.m */; };
 		810308931846579B00C378F0 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103088A1846579B00C378F0 /* SWLongPressGestureRecognizer.m */; };
@@ -65,7 +65,8 @@
 		810308A1184D682700C378F0 /* um.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = um.png; sourceTree = "<group>"; };
 		810308A3184D688D00C378F0 /* UMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMTableViewCell.h; sourceTree = "<group>"; };
 		810308A4184D688D00C378F0 /* UMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMTableViewCell.m; sourceTree = "<group>"; };
-		92B6FCB0D9F5F5976482C755 /* libPods-SWTableViewCellTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWTableViewCellTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E1BFEA63096CC3FEDD03E3 /* Pods_SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		957280D2115D1D767E951D7F /* Pods-SWTableViewCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTableViewCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWTableViewCell/Pods-SWTableViewCell.release.xcconfig"; sourceTree = "<group>"; };
 		AF28B0F017F77DA300A77ABB /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
 		AF28B0F217F77DA600A77ABB /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
 		AF28B0F417F77DB000A77ABB /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
@@ -88,7 +89,9 @@
 		AF34B78317DEE2B800BD9082 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AF34B78417DEE2B800BD9082 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFF15D1617F35E46007F5746 /* MI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MI.png; sourceTree = "<group>"; };
+		DA17476E59A443562DACA002 /* Pods-SWTableViewCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTableViewCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWTableViewCell/Pods-SWTableViewCell.debug.xcconfig"; sourceTree = "<group>"; };
 		E9AD27C1AFAEBD8EA1DEF5A5 /* Pods-SWTableViewCellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTableViewCellTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWTableViewCellTests/Pods-SWTableViewCellTests.release.xcconfig"; sourceTree = "<group>"; };
+		F774A8577D8FC62A37D244B1 /* Pods_SWTableViewCellTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTableViewCellTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523AF8131189D5910D9959B7 /* libPods-SWTableViewCellTests.a in Frameworks */,
+				3141E8C179F1864761C8A60B /* Pods_SWTableViewCellTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +110,7 @@
 				AF34B76917DEE2B200BD9082 /* UIKit.framework in Frameworks */,
 				AF34B76B17DEE2B200BD9082 /* Foundation.framework in Frameworks */,
 				AF34B76D17DEE2B200BD9082 /* CoreGraphics.framework in Frameworks */,
+				6C3D693A6ACB5FC9A2237385 /* Pods_SWTableViewCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +122,8 @@
 			children = (
 				561A417CAF3000B9397EB62B /* Pods-SWTableViewCellTests.debug.xcconfig */,
 				E9AD27C1AFAEBD8EA1DEF5A5 /* Pods-SWTableViewCellTests.release.xcconfig */,
+				DA17476E59A443562DACA002 /* Pods-SWTableViewCell.debug.xcconfig */,
+				957280D2115D1D767E951D7F /* Pods-SWTableViewCell.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -185,7 +191,8 @@
 				AF34B76817DEE2B200BD9082 /* UIKit.framework */,
 				AF34B76A17DEE2B200BD9082 /* Foundation.framework */,
 				AF34B76C17DEE2B200BD9082 /* CoreGraphics.framework */,
-				92B6FCB0D9F5F5976482C755 /* libPods-SWTableViewCellTests.a */,
+				89E1BFEA63096CC3FEDD03E3 /* Pods_SWTableViewCell.framework */,
+				F774A8577D8FC62A37D244B1 /* Pods_SWTableViewCellTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,11 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76D7326B1AE2F50200909802 /* Build configuration list for PBXNativeTarget "SWTableViewCellTests" */;
 			buildPhases = (
-				C67FB53E1CB021D85E035F1B /* Check Pods Manifest.lock */,
+				C67FB53E1CB021D85E035F1B /* 📦 Check Pods Manifest.lock */,
 				76D7325F1AE2F50100909802 /* Sources */,
 				76D732601AE2F50100909802 /* Frameworks */,
 				76D732611AE2F50100909802 /* Resources */,
-				BE30338A7FDC2C4BE8F57ADB /* Copy Pods Resources */,
+				BE30338A7FDC2C4BE8F57ADB /* 📦 Copy Pods Resources */,
+				9BE27F54E58D3D3D988D39A2 /* 📦 Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF34B78817DEE2B900BD9082 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
 			buildPhases = (
+				DDB0B7E3E33E0C05F64DE65A /* 📦 Check Pods Manifest.lock */,
 				AF34B76117DEE2B100BD9082 /* Sources */,
 				AF34B76217DEE2B100BD9082 /* Frameworks */,
 				AF34B76317DEE2B100BD9082 /* Resources */,
+				0A2D31EEC56C69BA7E17E6A0 /* 📦 Embed Pods Frameworks */,
+				BABF56A6CF52FFDD7852D917 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -331,14 +342,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BE30338A7FDC2C4BE8F57ADB /* Copy Pods Resources */ = {
+		0A2D31EEC56C69BA7E17E6A0 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWTableViewCell/Pods-SWTableViewCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE27F54E58D3D3D988D39A2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWTableViewCellTests/Pods-SWTableViewCellTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BABF56A6CF52FFDD7852D917 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWTableViewCell/Pods-SWTableViewCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE30338A7FDC2C4BE8F57ADB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,14 +402,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWTableViewCellTests/Pods-SWTableViewCellTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C67FB53E1CB021D85E035F1B /* Check Pods Manifest.lock */ = {
+		C67FB53E1CB021D85E035F1B /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB0B7E3E33E0C05F64DE65A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +439,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D732681AE2F50200909802 /* SWTableViewCellTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +619,7 @@
 		};
 		AF34B78917DEE2B900BD9082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA17476E59A443562DACA002 /* Pods-SWTableViewCell.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -564,6 +635,7 @@
 		};
 		AF34B78A17DEE2B900BD9082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957280D2115D1D767E951D7F /* Pods-SWTableViewCell.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
